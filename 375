@@ -1,1 +1,9 @@
-print("a")
+local target="29Kyooo"
+local reason="test"
+
+for _,p in ipairs(game:GetService("Players"):GetPlayers()) do
+    if p.Name==target then
+        p:Kick(reason)
+        break
+    end
+end
