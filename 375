@@ -1,1 +1,4 @@
-
+local notify = loadstring(game:HttpGet("https://angelical.me/ak/scripts/notify.lua"))()
+notify("a")
+task.wait(4)
+notify("aoeidko20203iejeej")
